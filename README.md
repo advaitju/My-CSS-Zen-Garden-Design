@@ -1,4 +1,4 @@
-# My-CSS-Zen-Garden-Design
+# My CSS Zen Garden Design
 ![My CSS Zen Garden design screenshot.](img/css-zen-garden-design-screenshot.png)
 
 ## About
