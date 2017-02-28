@@ -1,0 +1,118 @@
+/* CONTENTS
+1. Imports
+2. HTML elements / site-wide
+3. Page sections
+4. Blocks
+5. Style applicators
+6. Media queries
+*/
+
+/* 1. IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Monoton|Rajdhani:400,700');
+
+/* 2. HTML elemnts / site-wide */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Monoton", sans-serif;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 84px;
+  text-shadow: 0px 0px 12px rgba(255,20,147, 1);
+  color: deeppink;
+}
+h2 {
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+  font-size: 52px;
+}
+h3 {
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+  font-size: 38px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+h4 {
+  font-family: "Rajdhani", sans-serif;
+  text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+}
+h5 {}
+h6 {}
+p {
+  font-size: 20px;
+  margin: 16px 0px;
+  width: 65%;
+  max-width: 850px;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: deeppink;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 3. PAGE SECTIONS */
+
+/* 4. BLOCKS */
+header, .page-wrapper > div, .page-wrapper section > div {
+  padding: 10px 30px 10px 80px;
+}
+header {
+  /*background-image: url(img/pexels-photo-241149.jpeg);*/
+  /*background-position: 50% 60%;*/
+  background-image: url(img/vincent-guth-183404.jpg);
+  background-position: 50% 70%;
+  background-size: cover;
+}
+aside.sidebar {
+  position: absolute;
+  right: 1%;
+  top: 300px;
+  padding: 10px 30px;
+}
+#zen-summary p:first-child {
+  margin-top: 40px;
+}
+section#zen-intro a {
+  text-transform: uppercase;
+}
+
+/* 5. STYLE APPLICATORS */
+
+/* 6. MEDIA QUERIES */
+@media (max-width: 1000px) {
+  aside.sidebar {
+    position: static;
+    margin: 0;
+  }
+  p {
+    width: 85%;
+  }
+  header, .page-wrapper > div, .page-wrapper section > div, aside.sidebar {
+    padding: 10px 30px 10px 30px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+  }
+  h1 {
+    font-size: 76px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+}
