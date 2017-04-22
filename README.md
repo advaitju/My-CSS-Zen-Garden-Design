@@ -1,5 +1,5 @@
 # <a href="https://advaitju.github.io/My-CSS-Zen-Garden-Design/">My CSS Zen Garden Design</a>
-### <a href="https://advaitju.github.io/My-CSS-Zen-Garden-Design/">View design.</a>
+### <a href="https://advaitju.github.io/My-CSS-Zen-Garden-Design/">View design</a>
 <a href="https://advaitju.github.io/My-CSS-Zen-Garden-Design/">![My CSS Zen Garden design screenshot.](img/css-zen-garden-design-screenshot.png)</a>
 
 ## About
