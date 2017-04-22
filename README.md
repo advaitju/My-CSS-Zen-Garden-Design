@@ -5,7 +5,7 @@
 ## About
 My cool and usability-focused take on the CSS Zen Garden challenge.
 
-## What is _CSS Zen Garden_ challenge?
+## What is the _CSS Zen Garden_ challenge?
 The challenge requires that developers use the same skeleton HTML without modification and supply their own CSS to create a design.
 
 More info: http://www.csszengarden.com/
